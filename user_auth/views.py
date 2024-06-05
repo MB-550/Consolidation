@@ -6,11 +6,17 @@ from .forms import UserRegistrationForm
 from django.contrib import messages
 
 def user_login(request):
- return render(request, 'authentication/login.html')
+    """
+    Method for rendering a request for user login
+    """
+    return render(request, 'authentication/login.html')
 
 
 
 def authenticate_user(request):
+      """
+      This method authenticates the user trying to login
+      """
       username = request.POST['username']
       password = request.POST['password']
       user = authenticate(username=username, password=password)
@@ -25,13 +31,19 @@ def authenticate_user(request):
           )
 
 def show_user(request):
+     """
+     This method shows the user that has been logged in
+     """
      print(request.user.username)
      return render(request, 'authentication/user.html', {
-     "username": request.user.username,
-     "password": request.user.password
+     "username": request.user.username
+     
     })
 
 def register(request):
+    """
+    This Method registers a new user
+    """
     if request.method == 'POST':
         form = UserRegistrationForm(request.POST)
         if form.is_valid():
