@@ -1,0 +1,81 @@
+h1 {
+    text-align: center;
+    font-style: oblique;
+    font-size: 350%;
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    font-size: 250%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align-last: center;
+    color: rgb(12, 0, 90);
+}
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    font-size: 175%;
+    color: navy;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    color: navy;
+}
+
+body{
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(159, 197, 159);
+    color: black;
+    
+    background-size: 150%;
+    
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+input{
+    font-size: xx-large;
+    color: navy;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: navy;
+   
+}
+
+
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: navy;
+    align-self: center;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    color: navy;
+}
+
+img{
+    display: -moz-box;
+    height: 40%;
+    width: 40%;
+}
+
