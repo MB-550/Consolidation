@@ -1,0 +1,2 @@
+# Consolidation
+Django project
