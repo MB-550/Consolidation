@@ -76,6 +76,7 @@ FROM nginx
 
 COPY . /usr/share/nginx/html
 
+------------------------------------
 Python applications :
 
 FROM pypy:latest
@@ -91,6 +92,8 @@ After the Dockerfile has been created and edited properly you need to build the 
 html:
 
 "docker build -t my-website ./"
+
+----------------------------------------------------------
 
 Python application:
 
