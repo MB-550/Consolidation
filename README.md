@@ -87,6 +87,8 @@ COPY . /app
 
 CMD python [Application name goes here]
 
+------------------------------------------------
+
 After the Dockerfile has been created and edited properly you need to build the Docker image by running the following commands:
 
 html:
@@ -98,6 +100,8 @@ html:
 Python application:
 
 "docker build -t python-app ./"
+
+--------------------------------------------------------------------
 
 And then to run the image run the following command in the terminal this applies to both html and python applications:
 
